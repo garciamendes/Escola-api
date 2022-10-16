@@ -1,0 +1,22 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+*.env
+__pycache__/
+local_settings.py
+server_settings.py
+db.sqlite3
+media
+media_private
+.vscode/
+docs
+.env
+
+# fabric #
+env.json
+
+# otrs #
+docker-otrs/
+otrs_addons/
+.idea/

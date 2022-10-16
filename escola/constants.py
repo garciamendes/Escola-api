@@ -1,0 +1,17 @@
+NIVEL_BAIXO = 1
+NIVEL_MEDIO = 2
+NIVEL_AVANCADO = 3
+NIVEL_CURSO = (
+    (NIVEL_BAIXO, 'Baixo'),
+    (NIVEL_MEDIO, 'Médio'),
+    (NIVEL_AVANCADO, 'Avançado')
+)
+
+PERIODO_MANHA = 1
+PERIODO_TARDE = 2
+PERIODO_NOITE = 3
+PERIODO_CURSO = (
+    (PERIODO_MANHA, 'Manhã'),
+    (PERIODO_TARDE, 'Tarde'),
+    (PERIODO_NOITE, 'Noite')
+)
