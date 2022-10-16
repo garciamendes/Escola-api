@@ -21,3 +21,4 @@ sqlparse==0.4.3
 validate-docbr==1.10.0
 whitenoise==6.2.0
 zipp==3.9.0
+backports.zoneinfo;python_version<"3.9"
