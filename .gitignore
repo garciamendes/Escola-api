@@ -20,5 +20,3 @@ env.json
 docker-otrs/
 otrs_addons/
 .idea/
-
-requirements
