@@ -29,10 +29,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY =  os.getenv('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DOMAIN = os.getenv('DOMAIN', '')
-HOST = os.getenv('HOST', '')
-DEBUG = ast.literal_eval(os.getenv('DEBUG', 'True'))
-# ALLOWED_HOSTS = ['*'] if DEBUG else [HOST, DOMAIN]
+DEBUG = True
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -127,7 +125,7 @@ REST_FRAMEWORK = {
     # ],
 
     # https://www.django-rest-framework.org/api-guide/permissions/
-    'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.IsAuthenticated'],
+    # 'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.IsAuthenticated'],
 
     # https://www.django-rest-framework.org/api-guide/filtering/
     'DEFAULT_FILTER_BACKENDS': [
