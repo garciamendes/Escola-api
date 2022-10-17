@@ -1,0 +1,1 @@
+# Testando fetch com Django rest api
